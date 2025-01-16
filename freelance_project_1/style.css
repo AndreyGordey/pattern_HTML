@@ -1,0 +1,72 @@
+body {
+    background-color: gray;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 86px;
+    width: 100%;
+    background-color: black;
+}
+
+.img-logo {
+    position: relative;
+    right: 66px;
+    top: 20px;
+}
+
+.logo {
+    font-family: 'Kanit';
+    color: aliceblue;
+    position: relative;
+    top: 22px;
+    right: 636px;
+    font-size: 20px;
+}
+
+.smart {
+    color: green;
+}
+
+.login {
+    color: green;
+    position: relative;
+    top: 22px;
+    left: 150px;
+    font-family: 'Kanit';
+    cursor: pointer;
+}
+
+.container-img {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 196px;
+    background-color: rgb(183, 195, 255);
+}
+
+.top-left {
+    position: absolute;
+    bottom: 128px;
+    left: 16px;
+    color: black;
+}
+
+.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    height: 100%;
+    justify-content: space-around;
+
+}
+
+.button {
+    background-color: green;
+    border-radius: 20px;
+    position: relative;
+    top: 82px;
+    width: 280px;
+    height: 50px;
+}

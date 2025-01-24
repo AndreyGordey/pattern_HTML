@@ -132,6 +132,12 @@ body {
 
 .section_5 {
     height: 694px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -11em;
+    justify-content: space-around;
 }
 
 
@@ -140,46 +146,107 @@ body {
      === 
      =
      */
-.menu {
+/* .menu {
     position: relative;
     display: inline-block;
-}
+} */
 
-.menu-content {
+/* .menu-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-}
+} */
 
-.menu-content a {
+/* .menu-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-}
+} */
 
-.menu-content a:hover {
+/* .menu-content a:hover {
     background-color: #f1f1f1;
-}
+} */
 
-.menu:hover .menu-content {
+/* .menu:hover .menu-content {
     display: block;
+} */
+
+
+.section_5_left {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin: 1em; */
 }
 
-.menu-button {
-    background-color: #4CAF50; /* Зеленый цвет */
-    color: white;
-    padding: 10px 20px;
-    border: none;
+
+
+.details {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    margin: 0 auto 10px;
+    background: rgba(255,255,255,0.5);
+    border-radius: 5px;
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  
+  .details::after {
+    position: absolute;
+    right: 24px;
+    top: 15px;
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    border-right: 3px solid #425995;
+    border-bottom: 3px solid #425995;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    transition: .3s;
+  }
+  
+  .details[open]::after {
+    transform: rotate(45deg);
+  }
+  
+  .details[open] {
+    padding-bottom: 100px;
+  }
+  
+  .details[open] .details__title {
+    margin-bottom: 32px;
+  }
+  
+  .details__title {
+    background: #fff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 20px;
     cursor: pointer;
-    width: 300px;
-    margin-left: 2em;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    list-style: none;
+    font-weight: 700;
+    transition: .3s;
+  }
+  
+  .details__title::-webkit-details-marker {
+    display: none;
+  }
+  
+  .details__content {
+    padding: 0 32px;
+    font-size: 18px;
+    margin-bottom: -60px;
+  }
+  
+  .details__content p:last-child {
+    margin-bottom: 0;
+  }
+  .details__content p:first-child {
+    margin-top: 0;
+  }

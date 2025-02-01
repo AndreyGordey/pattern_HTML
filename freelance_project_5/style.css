@@ -1,0 +1,241 @@
+body {
+    background-color: gray;
+    font-size: 16px;
+
+}
+
+.section {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+
+}
+.section_11 {
+    background-image: url(/freelance_project_5/img/Bitmap.png);
+    width: 1440px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+    background-color: #f8f9fa07;
+    border-bottom: 1px solid #ffffff;
+    
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 28px 6px 45px 164px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #0056b3; */
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li {
+    margin-right: 50px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.nav a:hover {
+    color: #007bff;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.signup,
+.login {
+    margin: 10px 20px 10px 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signup {
+    background-color: #28a745;
+    color: white;
+}
+
+.login {
+    background-color: #007bff;
+    color: white;
+}
+
+.signup:hover {
+    background-color: #218838;
+}
+
+.login:hover {
+    background-color: #0056b3;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        /* Выравнивание по левому краю */
+        padding: 10px;
+        /* Уменьшение отступов */
+    }
+
+    .logo {
+        margin-bottom: 10px;
+        /* Отступ между логотипом и навигацией */
+        font-size: 20px;
+        /* Уменьшение размера логотипа */
+    }
+
+    .nav ul {
+        flex-direction: column;
+        /* Вертикальное расположение элементов навигации */
+        width: 100%;
+        /* Ширина на весь экран */
+        padding-left: 0;
+        /* Убираем отступы */
+    }
+
+    .nav li {
+        margin-right: 0;
+        /* Убираем правый отступ */
+        margin-bottom: 10px;
+        /* Отступ между пунктами навигации */
+        text-align: center;
+        /* Центрирование текста */
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        /* Вертикальное расположение кнопок */
+        width: 100%;
+        /* Ширина на весь экран */
+        align-items: center;
+        /* Центрирование кнопок */
+        margin-top: 10px;
+        /* Отступ сверху */
+    }
+
+    .signup,
+    .login {
+        width: 100%;
+        /* Кнопки занимают всю ширину */
+        margin-left: 0;
+        /* Убираем левый отступ */
+        margin-bottom: 10px;
+        /* Отступ между кнопками */
+        padding: 12px;
+        /* Увеличение высоты кнопок */
+        font-size: 16px;
+        /* Увеличение размера шрифта кнопок */
+    }
+}
+
+
+
+/* =====================================================body */
+
+.section_13 {
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+    left: 170px;
+    color: white;
+}
+
+p {
+    font-size: 1.5rem;
+}
+h1  {
+    font-size: 4rem;
+    line-height: 66px;
+}
+
+
+.section_12 {
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get_in_touch {
+    margin: 0 0 40px 0;
+}
+
+.rectangle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1276px;
+    height: 227px;
+    background-color: #ffffff;
+    position: relative;
+    left: 165px;    
+}
+
+.firm {
+    margin: 50px 33px 60px 33px;
+}
+/* ------------------------------ */
+
+.section_2 {
+    width: 1442px;
+    /* height: 227px; */
+    background-color: #ffffff;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 230px;
+}
+.section_111 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*  */
+.rectangle_2 {
+    background-color: #794d4d;
+}
+/* не забудь, что у тебя несколько классов p. может их поменять? */
+.little_p {
+    position: relative;
+    left: 165px;
+    margin: 50px 0 10px 0;
+}

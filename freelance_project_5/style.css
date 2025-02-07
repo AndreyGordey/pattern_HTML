@@ -276,7 +276,7 @@ h1 {
 
 
 
-/* экспериментальный блок */
+/* ********************************************section_2 */
 .section_2q {
     width: 1442px;
     background-color: #ffffff;
@@ -330,16 +330,91 @@ h1 {
 }
 
 .rectangle_0q {
-    width: 400px; /* Фиксированная ширина */
-    min-height: 450px; /* Минимальная высота для лучшей визуализации */
-    background-color: gray; /* Цвет фона для наглядности */
+    width: 400px;
+    /* Фиксированная ширина */
+    min-height: 450px;
+    /* Минимальная высота для лучшей визуализации */
+    background-color: gray;
+    /* Цвет фона для наглядности */
 }
+
 .rectangle_4q {
-    width: 450px; /* Фиксированная ширина */
-    min-height: 450px; /* Минимальная высота для лучшей визуализации */
-    background-color: gray; /* Цвет фона для наглядности */
+    width: 450px;
+    /* Фиксированная ширина */
+    min-height: 450px;
+    /* Минимальная высота для лучшей визуализации */
+    background-color: gray;
+    /* Цвет фона для наглядности */
 }
 
 .founderq {
     display: flex;
+}
+
+
+/* ***************************************************section_3 */
+.section_3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    padding-top: 213px;
+    padding-bottom: 30px
+}
+
+.we_have {
+    /* margin-right: 20px; */
+    width: 380px;
+}
+
+
+/* *************************************************section_4 */
+.section_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    margin-bottom: 150px;
+}
+
+.left_4 {
+    position: relative;
+    left: 250px;
+}
+
+
+.center_4_1 {
+    border-radius: 22px;
+    background-color: #0056b3;
+    width: 509px;
+    height: 243px;
+
+    position: relative;
+    top: 210px;
+    right: 160px;
+    padding: 10px 20px 12px 30px;
+
+
+    -webkit-box-shadow: 6px 8px 25px -5px rgba(34, 60, 80, 0.6);
+    -moz-box-shadow: 6px 8px 25px -5px rgba(34, 60, 80, 0.6);
+    box-shadow: 6px 8px 25px -5px rgba(34, 60, 80, 0.6);
+}
+
+.center_4_2 {
+    /* background-color: #218838; */
+    display: flex;
+    border-radius: 22px;
+    width: 503px;
+    
+
+
+    position: relative;
+    top: -15px;
+}
+
+.right_4 {
+    width: 474px;
+    position: relative;
+    top: -15px;
+    right: 120px;
 }

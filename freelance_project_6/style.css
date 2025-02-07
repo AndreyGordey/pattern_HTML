@@ -1,0 +1,44 @@
+.section_1 {
+    padding: 10em 3em;
+
+
+}
+
+.slider {
+    /* position: relative; */
+    /* изменить размер  */
+    max-width: 856px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+/* *********************************section_2***************** */
+
+.section_2 {
+    max-width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.afisha {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* margin-left: 5px; */
+}
+
+.afisha>p {
+    color: aquamarine;
+    margin-left: 2em;
+}

@@ -1,85 +1,92 @@
+/* Основные стили для body */
 body {
-    background-color: gray;
-    margin: 0;
+    background-color: gray; /* Цвет фона */
+    margin: 0; /* Убираем отступы по умолчанию */
 }
 
+/* Стили для заголовка */
 .header {
-    background: #181818;
+    background: #181818; /* Цвет фона заголовка */
 }
 
+/* Основной контейнер заголовка */
 .header_main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-
+    display: flex; /* Используем Flexbox для выравнивания элементов */
+    justify-content: center; /* Центрируем содержимое по горизонтали */
+    align-items: center; /* Центрируем содержимое по вертикали */
+    height: 120px; /* Высота заголовка */
 }
 
+/* Навигационное меню в заголовке */
 .header_nav {
-    margin-left: 120px;
-    margin-right: 149px;
+    margin-left: 120px; /* Отступ слева */
+    margin-right: 149px; /* Отступ справа */
 }
 
+/* Стили для ссылок в навигации */
 .header_nav a {
-    margin-right: 31px;
-    color: white;
-    text-decoration: none;
-    font-family: serif;
+    margin-right: 31px; /* Отступ между ссылками */
+    color: white; /* Цвет текста ссылок */
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    font-family: serif; /* Шрифт для ссылок */
 }
 
+/* Эффект при наведении на ссылки */
 .header_nav a:hover {
-    color: gray;
-    font-family: sans-serif;
+    color: gray; /* Цвет текста при наведении */
+    font-family: sans-serif; /* Изменение шрифта при наведении */
 }
 
+/* Контейнер для текстов заголовка */
 .header_texts {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: 35px;
+    padding-top: 50px; /* Отступ сверху */
+    padding-bottom: 50px; /* Отступ снизу */
+    margin-top: 35px; /* Отступ сверху от других элементов */
 
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    display: flex; /* Используем Flexbox для выравнивания текстов */
+    flex-direction: column; /* Располагаем тексты вертикально */
+    align-items: center; /* Центрируем тексты по горизонтали */
 }
 
+/* Заголовок текста */
 .header_texts_title {
-    font-size: 80px;
-    font-family: sans-serif;
-    color: white;
-    margin: 0;
-
-
-    width: 40%;
+    font-size: 80px; /* Размер шрифта заголовка */
+    font-family: sans-serif; /* Шрифт заголовка */
+    color: white; /* Цвет текста заголовка */
+    margin: 0; /* Убираем отступы */
+    width: 40%; /* Ширина заголовка */
 }
 
+/* Подзаголовок текста */
 .header_texts_subtitle {
-    font-size: 20px;
-    font-family: sans-serif;
-    color: white;
-    margin: 0;
-    margin-top: 17px;
+    font-size: 20px; /* Размер шрифта подзаголовка */
+    font-family: sans-serif; /* Шрифт подзаголовка */
+    color: white; /* Цвет текста подзаголовка */
+    margin: 0; /* Убираем отступы */
+    margin-top: 17px; /* Отступ сверху от заголовка */
 
-
-    width: 40%;
+    width: 40%; /* Ширина подзаголовка */
 }
 
+/* Контейнер для изображения в заголовке */
 .header__image {
-    margin-top: 35px;
+    margin-top: 35px; /* Отступ сверху */
 
-    display: flex;
-    justify-content: center;
+    display: flex; /* Используем Flexbox для центрирования изображения */
+    justify-content: center; /* Центрируем изображение по горизонтали */
 }
-/* *****************************buttons */
+
+/* Контейнер для кнопок в заголовке */
 .header__buttons {
-    margin-top: 35px;
+    margin-top: 35px; /* Отступ сверху */
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; /* Используем Flexbox для выравнивания кнопок */
+    align-items: center; /* Центрируем кнопки по вертикали */
+    justify-content: center; /* Центрируем кнопки по горизонтали */
 }
 
+
+/* *****************************buttons */
 .primary {
     color: white;
     background: #4452FE;

@@ -1,4 +1,7 @@
-.main__features {
+.main__features,
+.main__content,
+.main__gallery,
+.main__partners {
     color: white;
     display: flex;
     flex-direction: column;
@@ -25,4 +28,77 @@
 
 .main__image {
     margin-top: 20px;
+}
+
+
+/* ********************************content************************* */
+.main__cards {
+    margin-top: 44px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    padding: 40px 35px;
+}
+
+.main__card h1 {
+    margin: 0;
+    color: black;
+    font-size: 20px;
+    font-family: RobotoM, sans-serif;
+    text-align: center;
+}
+
+.main__card h5 {
+    margin: 0;
+    margin-top: 30px;
+    color: #5c5c5c;
+    font-size: 20px;
+    font-family: RobotoL, sans-serif;
+    text-align: center;
+    width: 270px;
+}
+
+.first__card {
+    margin-right: 33px;
+}
+
+
+/* *********************************Gallery************************* */
+.gallery__section img{
+    border-radius: 12px;
+    margin-right: 33px;
+}
+.gallery__first_row,
+.gallery__second_row {
+    display: flex;
+    align-items: center;
+    margin-top: 44px;
+}
+
+.gallery__second_row {
+    margin-bottom: 44px;
+}
+
+
+/* ******************************Partners****************************** */
+
+
+.partners_images {
+    margin-left: 74px;
+}
+
+
+.partners_images img {
+    margin-right: 74px;
+    margin-bottom: 54px;
+    margin-top: 54px;
 }

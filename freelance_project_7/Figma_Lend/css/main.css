@@ -1,7 +1,8 @@
 .main__features,
 .main__content,
 .main__gallery,
-.main__partners {
+.main__partners,
+.main__testimonials {
     color: white;
     display: flex;
     flex-direction: column;
@@ -102,3 +103,47 @@
     margin-bottom: 54px;
     margin-top: 54px;
 }
+
+
+/* *****************************Testimontials***************************** */
+.testimonials {
+    margin-top: 50px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.testimonial {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 23px;
+    padding: 40px;
+    width: 430px;
+}
+
+.testimonial__title {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.testimonial__title img {
+    margin-right: 23px;
+}
+
+.testimonial__name,
+.testimonial__job {
+    font-family: RobotoM, sans-serif;
+}
+
+.testimonial__job {
+    margin-top: 6px;
+}
+
+.testimonial__content {
+    font-family: RobotoL, sans-serif;
+}
+

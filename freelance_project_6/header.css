@@ -55,8 +55,16 @@ body {
   #burger-toggle {
     display: none;
   }
+
+
+  .afisha__img {
+    width: 320px;
+  }
+
+
   
   @media (max-width: 784px) {
+
     label {
       position: relative;
       display: block;
@@ -125,10 +133,20 @@ body {
       font-size: 24px;
     }
 
-    
+    .section_2 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
     .section_2 h1 {
       color: aquamarine;
       margin: 1em;
+    }
+
+    /* 3 */
+
+    .afisha__img {
+      width: 240px;
     }
 
 

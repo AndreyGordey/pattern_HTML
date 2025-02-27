@@ -58,3 +58,30 @@
     margin: 2rem 2rem 5rem 2rem;
     text-align: center;
 }
+
+.antonio_vivaldi {
+    margin-top: 4rem;
+}
+.antonio {
+    width: 315px;
+}
+
+.frank {
+    margin-top: 1rem;
+}
+
+.time {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.time p {
+    margin-right: 4rem;
+}
+
+.btn {
+    width: 10rem;
+    height: 3rem;
+    background-color: rgba(5, 176, 147, 1);
+    border-radius: 50%;
+}

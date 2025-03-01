@@ -59,17 +59,21 @@ body {
 
   .afisha__img {
     width: 320px;
+    margin-right: 2rem;
   }
 
 
   
   @media (max-width: 784px) {
-
+    .header__list {
+      z-index: 2;
+    }
+ 
     label {
       position: relative;
       display: block;
       height: 25px;
-      width: 30px;
+      width: 40px;
     }
   
     label::after, label::before, label span {
@@ -97,16 +101,22 @@ body {
     #burger-toggle:checked ~ label::after {
       transform: rotate(45deg);
       bottom: 10px;
+
+      z-index: 5;
     }
   
     #burger-toggle:checked ~ label::before {
       transform: rotate(-45deg);
       top: 12px;
+      z-index: 5;
+
     }
   
     #burger-toggle:checked ~ label span {
       transform: rotate(-45deg);
       top: 12px;
+      z-index: 5;
+
     }
   
     ul {
@@ -120,7 +130,7 @@ body {
       text-align: center;
   
       left: -100vw;
-      right: 100vw;
+      right: 200vw;
   
     }
   
@@ -144,9 +154,38 @@ body {
     }
 
     /* 3 */
+    .section_3 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 1rem;
+    }
+
+    .antonio_vivaldi {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .antonio {
+      font-size: 1rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .time p{
+      margin: 1rem;
+
+
+
+    }
+
+
 
     .afisha__img {
-      width: 240px;
+      width: 640px;
     }
 
 

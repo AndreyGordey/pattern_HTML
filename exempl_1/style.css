@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f4f4f9;
+    background-color: #8686f7;
     color: #333;
     padding: 0 20px;
 }
@@ -19,8 +19,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    background-color: #0078d7;
-    color: white;
+    background-color: #8686f7;
+    color: rgb(180, 159, 159);
 }
 
 .logo img {
